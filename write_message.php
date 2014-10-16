@@ -20,6 +20,13 @@
 				<input type="submit" value="メッセージの登録" />
 			</form>
 			<hr />
-			ここに入力されたやつが表示される予定。
+<?php
+	$name=$_POST['names'];
+	print("名前：".$name."<br />");
+	$title=$_POST['title'];
+	print("題名<b>".$title."</b><br />");
+	$message=$_POST['messages'];
+	print("message:".$message);
+?>
 	</body>
 </html>
