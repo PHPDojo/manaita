@@ -22,11 +22,11 @@
 			<hr />
 <?php
 	$name=$_POST['names'];
-	print("名前：".$name."<br />");
+	print($name."さん<br />");
 	$title=$_POST['title'];
-	print("題名<b>".$title."</b><br />");
+	print("<b>".$title."</b><br />");
 	$message=$_POST['messages'];
-	print("message:".$message);
+	print($message);
 ?>
 	</body>
 </html>
