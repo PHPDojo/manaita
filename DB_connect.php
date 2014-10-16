@@ -10,7 +10,7 @@
 			mysql_select_db("kitchen",$conn);
 			$res=mysql_query("show tables",$conn);
 			if($res){
-				print("ƒf[ƒ^‚ª‚Æ‚Á‚Ä‚±‚ê‚Ü‚µ‚½B");
+				print("ãƒ‡ãƒ¼ã‚¿ãŒã¨ã£ã¦ã“ã‚Œã¾ã—ãŸã€‚");
 			}
 			mysql_free_result($res);
 		?>
