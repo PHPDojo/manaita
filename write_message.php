@@ -26,7 +26,18 @@
 	$title=$_POST['title'];
 	print("<b>".$title."</b><br />");
 	$message=$_POST['messages'];
+	
+	$filename = 'manaita.txt';
+	$fp = fopen($filename,"a+");
+	fputs($fp,$_POST["names"]."\n");
+	print("\r\n");
+	fputs($fp,$_POST["title"]."\n");
+	print("\r\n");
+	fputs($fp,$_POST["messages"]."\n");
+	print("\r\n");
 	print($message);
+	print("\r\n");
+	fclose($fp);
 ?>
 	</body>
 </html>

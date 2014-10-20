@@ -1,0 +1,7 @@
+{
+	"require":{
+		"monolog/monolog": "1.6.*",
+		"cakephp/cakephp": "2.*",
+        "cakephp/debug_kit": "2.*"
+	}
+}

@@ -20,6 +20,16 @@
 				<input type="submit" value="メッセージの登録" />
 			</form>
 			<hr />
-			ここに入力されたやつが表示される予定。
+			ここにメッセージを表示します。
+<?php
+	$filename = 'manaita.txt';
+	$fp = fopen($filename,"r");
+	
+	while(feof($fp)){
+		print fgets($fp);
+	}
+	fclose($fp);
+?>			
+			
 	</body>
 </html>
